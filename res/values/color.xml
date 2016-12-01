@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_dark">#1C1D1C</color>  <!-- 标题的背景颜色  -->
+    <color name="bottom_dark">#10130F</color> <!-- 底部背景颜色 - 节目信息背景色 -->
+    <color name="channel_name">#44A1D7</color>
+    <color name="title_text">#BEBEBE</color> <!--标题节目版本字体颜色  -->
+</resources>  

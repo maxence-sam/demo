@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:weightSum="45"
+      >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="7"
+        >
+        <include layout="@layout/tv_title"/>
+    </LinearLayout>      
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp" 
+        android:layout_marginRight="5dp"
+        android:background="@color/title_text"
+        />
+    
+      <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+		android:layout_weight="15"          
+		android:layout_marginLeft="20dp"
+          >
+          <include layout="@layout/tv_content"/>
+      </LinearLayout>
+      
+      <!-- TODO -->
+      <LinearLayout 
+          android:layout_width="match_parent"
+			android:layout_height="0dp"         
+			android:layout_weight="17"
+			android:layout_marginLeft="20dp" 
+          ></LinearLayout>
+      
+      
+  </LinearLayout>
+    <VideoView 
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+		android:layout_marginRight="30dp" 
+		android:layout_gravity="right"
+		android:layout_marginTop="20dp" 
+		android:background="@drawable/ic_launcher"       
+        />
+</FrameLayout>
